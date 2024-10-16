@@ -4,7 +4,7 @@ const listaTarefa = document.getElementById('listaTarefa');
 
 btnAddTarefa.addEventListener('click', function(){
 
-    alert('Bem vindo');
+    alert(novaTarefa);
 
 
 
