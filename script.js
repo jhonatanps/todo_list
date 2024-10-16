@@ -6,7 +6,7 @@ btnAddTarefa.addEventListener('click', function(){
     const tarefa = novaTarefa.value;
     
     // se a tarefa for diferente de vazia ele execulta
-    if(tarefa.trim() !== " "){
+    if(tarefa){
 
         const li = document.createElement('li');
 
