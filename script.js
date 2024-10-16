@@ -10,7 +10,7 @@ btnAddTarefa.addEventListener('click', function(){
 
         const li = document.createElement('li');
 
-        li.textContent = novaTarefa;
+        li.textContent = tarefa;
 
         const botaoRemover = document.createElement('button');
         botaoRemover.textContent = "Remover";
